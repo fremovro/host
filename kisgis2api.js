@@ -11,6 +11,6 @@ class kisgis2api {
                 id: _id
             }
         }
-        this._window.postMessage("message", '*');
+        this._window.postMessage(message, '*');
     }
   }
