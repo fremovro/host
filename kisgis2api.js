@@ -5,12 +5,12 @@ class kisgis2api {
     }
 
     showTreeNode(_id) {
-        let message = {
-            name: 'showTreeNode',
-            params: {
-                id: _id
-            }
-        }
-        this._window.postMessage(message, '*');
+        // let message = {
+        //     name: 'showTreeNode',
+        //     params: {
+        //         id: _id
+        //     }
+        // }
+        this._window.postMessage("privet", '*');
     }
   }
